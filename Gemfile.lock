@@ -79,7 +79,7 @@ DEPENDENCIES
   parser (= 2.3.0.pre.6)
   rake
   rspec
-  rubocop
+  rubocop (~> 0.31)
   rubocop-rspec!
   simplecov
 
