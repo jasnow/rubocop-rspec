@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-describe 'RuboCop Project' do
+describe 'RuboCop Project' do # rubocop:disable RSpec/DescribeClass
   describe 'default configuration file' do
     let(:cop_names) do
       Dir.glob(File.join(File.dirname(__FILE__), '..', 'lib', 'rubocop', 'cop',
